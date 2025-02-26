@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header'
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 import FoodDisplayTwo from '../../components/FoodDisplayTwo/FoodDisplayTwo'
 import AppDownload from '../../components/AppDownload/AppDownload'
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
 

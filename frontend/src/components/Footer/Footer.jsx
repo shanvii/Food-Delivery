@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
             <img src={assets.logo} alt="" />
-            <p>Tomato here in Footer</p>
+            <p>Satisfy your cravings with every bite, as we bring you flavors that are simply Satakshi-fying!</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
                 <img src={assets.twitter_icon} alt="" />
@@ -28,7 +28,7 @@ const Footer = () => {
             <h2>Get In Touch</h2>
             <ul>
                 <li>9876543210</li>
-                <li>satakshi.shanvi@gmail.com</li>
+                <li>satakshi.shanvi@tomato.com</li>
             </ul>
         </div>
       </div>
