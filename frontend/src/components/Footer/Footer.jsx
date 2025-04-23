@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-            <img src={assets.logo} alt="" />
+            <img src={assets.logo2} alt="" />
             <p>Satisfy your cravings with every bite, as we bring you flavors that are simply Satakshi-fying!</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
@@ -28,12 +28,12 @@ const Footer = () => {
             <h2>Get In Touch</h2>
             <ul>
                 <li>9876543210</li>
-                <li>satakshi.shanvi@tomato.com</li>
+                <li>satakshi.shanvi@food.com</li>
             </ul>
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2024 © Tomato.com - All Right Reserved.</p>
+      <p className="footer-copyright">Copyright 2024 © FoodTop.com - All Right Reserved.</p>
     </div>
   )
 }

@@ -1,5 +1,7 @@
 import basket_icon from './basket_icon.png'
 import logo from './logo.png'
+import logo1 from './logo1.png'
+import logo2 from './logo2.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
@@ -10,6 +12,15 @@ import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
+
+import restro_1 from './restro_1.png'
+import restro_2 from './restro_2.jpg'
+import restro_3 from './restro_3.jpg'
+import restro_4 from './restro_4.jpg'
+import restro_5 from './restro_5.jpg'
+import restro_6 from './restro_6.png'
+import restro_7 from './restro_7.avif'
+import restro_8 from './restro_8.avif'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -62,6 +73,8 @@ import parcel_icon from './parcel_icon.png'
 
 export const assets = {
     logo,
+    logo1,
+    logo2,
     basket_icon,
     header_img,
     search_icon,
@@ -115,6 +128,40 @@ export const menu_list = [
         menu_name: "Noodles",
         menu_image: menu_8
     }]
+
+    export const restro_list = [
+        {
+            menu_name: "Corner Cafe",
+            menu_image: restro_1
+        },
+        {
+            menu_name: "Foodie",
+            menu_image: restro_2
+        },
+        {
+            menu_name: "F&C",
+            menu_image: restro_3
+        },
+        {
+            menu_name: "Aldenaire",
+            menu_image: restro_4
+        },
+        {
+            menu_name: "Resto Hot",
+            menu_image: restro_5
+        },
+        {
+            menu_name: "Tasty Bites",
+            menu_image: restro_6
+        },
+        {
+            menu_name: "Purple",
+            menu_image: restro_7
+        },
+        {
+            menu_name: "Resto",
+            menu_image: restro_8
+        }]
 
 export const food_list = [
     {
@@ -346,5 +393,238 @@ export const food_list = [
         price: 150,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
+    }
+]
+
+export const food_list_restro = [
+    {
+        _id: "1",
+        name: "Greek salad",
+        image: food_1,
+        price: 120,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Foodie"
+    },
+    {
+        _id: "2",
+        name: "Veg salad",
+        image: food_2,
+        price: 180,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Aldenaire"
+    }, {
+        _id: "3",
+        name: "Clover Salad",
+        image: food_3,
+        price: 160,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Resto Hot"
+    }, {
+        _id: "4",
+        name: "Chicken Salad",
+        image: food_4,
+        price: 240,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Tasty Bites"
+    }, {
+        _id: "5",
+        name: "Lasagna Rolls",
+        image: food_5,
+        price: 140,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Tasty Bites"
+    }, {
+        _id: "6",
+        name: "Peri Peri Rolls",
+        image: food_6,
+        price: 120,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Purple"
+    }, {
+        _id: "7",
+        name: "Chicken Rolls",
+        image: food_7,
+        price: 200,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Tasty Bites"
+    }, {
+        _id: "8",
+        name: "Veg Rolls",
+        image: food_8,
+        price: 105,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Resto"
+    }, {
+        _id: "9",
+        name: "Ripple Ice Cream",
+        image: food_9,
+        price: 40,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Corner Cafe"
+    }, {
+        _id: "10",
+        name: "Fruit Ice Cream",
+        image: food_10,
+        price: 52,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "F&C"
+    }, {
+        _id: "11",
+        name: "Jar Ice Cream",
+        image: food_11,
+        price: 100,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Corner Cafe"
+    }, {
+        _id: "12",
+        name: "Vanilla Ice Cream",
+        image: food_12,
+        price: 60,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "F&C"
+    },
+    {
+        _id: "13",
+        name: "Chicken Sandwich",
+        image: food_13,
+        price: 120,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Aldenaire"
+    },
+    {
+        _id: "14",
+        name: "Vegan Sandwich",
+        image: food_14,
+        price: 180,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Foodie"
+    }, {
+        _id: "15",
+        name: "Grilled Sandwich",
+        image: food_15,
+        price: 160,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Foodie"
+    }, {
+        _id: "16",
+        name: "Bread Sandwich",
+        image: food_16,
+        price: 100,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Corner Cafe"
+    }, {
+        _id: "17",
+        name: "Cup Cake",
+        image: food_17,
+        price: 50,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "F&C"
+    }, {
+        _id: "18",
+        name: "Strawberry Cake",
+        image: food_18,
+        price: 240,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "F&C"
+    }, {
+        _id: "19",
+        name: "Butterscotch Cake",
+        image: food_19,
+        price: 240,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Purple"
+    }, {
+        _id: "20",
+        name: "Cheese Cake",
+        image: food_20,
+        price: 260,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Resto"
+    }, {
+        _id: "21",
+        name: "Garlic Mushroom ",
+        image: food_21,
+        price: 140,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Resto"
+    }, {
+        _id: "22",
+        name: "Fried Cauliflower",
+        image: food_22,
+        price: 80,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Purple"
+    }, {
+        _id: "23",
+        name: "Mix Veg Pulao",
+        image: food_23,
+        price: 150,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Tasty Bites"
+    }, {
+        _id: "24",
+        name: "Rice Zucchini",
+        image: food_24,
+        price: 120,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Resto Hot"
+    },
+    {
+        _id: "25",
+        name: "Cheese Pasta",
+        image: food_25,
+        price: 120,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Aldenaire"
+    },
+    {
+        _id: "26",
+        name: "Tomato Pasta",
+        image: food_26,
+        price: 180,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Purple"
+    }, {
+        _id: "27",
+        name: "Creamy Pasta",
+        image: food_27,
+        price: 160,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Aldenaire"
+    }, {
+        _id: "28",
+        name: "Chicken Pasta",
+        image: food_28,
+        price: 240,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Tasty Bites"
+    }, {
+        _id: "29",
+        name: "Buttter Garlic Noodles",
+        image: food_29,
+        price: 140,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Foodie"
+    }, {
+        _id: "30",
+        name: "Veg Noodles",
+        image: food_30,
+        price: 120,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Foodie"
+    }, {
+        _id: "31",
+        name: "Spicy Garlic Noodles",
+        image: food_31,
+        price: 160,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Corner Cafe"
+    }, {
+        _id: "32",
+        name: "Soupy Noodles",
+        image: food_32,
+        price: 150,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Corner Cafe"
     }
 ]
