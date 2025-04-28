@@ -36,7 +36,7 @@ const listFood = async (req, res) => {
 const removeFood = async (req, res) => {
   try {
     const food = await foodModel.findById(req.body.id);
-    
+    fs.unlink()
   } catch (error) {
     
   }
