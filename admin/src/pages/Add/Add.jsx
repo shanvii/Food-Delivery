@@ -4,6 +4,7 @@ import { assets } from "../../assets/assets";
 import { useState } from "react";
 // import { useEffect } from "react";
 import axios from "axios";
+import { toast } from "react-toastify";
 
 const Add = () => {
   const url = "http://localhost:4000";
@@ -43,7 +44,9 @@ const Add = () => {
         category: "Salad",
       });
       setImage(false);
+      toast.success(response.data.message);
     } else {
+      toast.error(response.data.message);
     }
   };
 
