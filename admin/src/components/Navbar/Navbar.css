@@ -12,3 +12,8 @@
 .navbar .profile {
   width: 40px;
 }
+
+.navbar .admin {
+  color: #6d6d6d;
+  font-size: 4px;
+}
