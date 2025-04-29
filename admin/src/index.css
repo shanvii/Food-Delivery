@@ -27,8 +27,12 @@ hr {
   display: flex;
 }
 
-.flex-col{
+.flex-col {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.cursor {
+  cursor: pointer;
 }
